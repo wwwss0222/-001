@@ -11,8 +11,8 @@
  * `roslaunch actuator car_slave.launch `
  * Slave 需依赖 Master，在 EveryoneStatus 中监听到相关状态，方开始工作。仅负责**配送**。
 
-# 因第二十六届中国机器人及人工智能大赛智慧药房规则修改 故仅用双车
-# new_drug_master（存放主机代码文件）下主要为actuator（负责主机运行逻辑）、char_recognizer（负责识别任务）、deliver_scheduler(负责定时)
-# new_drug_slave（存放从机代码文件）下主要为actuator（负责从机运行逻辑）
-# 运行逻辑代码为actuator\script下final_master.py（主机）以及final_slave.py(从机)
-# 不要提为什么代码里那么多奇奇怪怪的reset或者保护机制 悄悄告诉你 小车性能跟不太上哦
+## 因第二十六届中国机器人及人工智能大赛智慧药房规则修改 故仅用双车
+ * new_drug_master（存放主机代码文件）下主要为actuator（负责主机运行逻辑）、char_recognizer（负责识别任务）、deliver_scheduler(负责定时)
+ * new_drug_slave（存放从机代码文件）下主要为actuator（负责从机运行逻辑）
+ * 运行逻辑代码为actuator\script下final_master.py（主机）以及final_slave.py(从机)
+ * 不要提为什么代码里那么多奇奇怪怪的reset或者保护机制 悄悄告诉你 小车性能跟不太上哦
